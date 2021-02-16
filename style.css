@@ -22,21 +22,43 @@ nav {
     font-size: 1.2rem
 }
 
-
+/*-------main--------------*/
 /*-------top--------------*/
 
-/*.top {
-    position: relative;
+.banner img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
 .entete {
+    position: relative;
+}
+
+.banner-content {
     position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content img {
+    height: 70px
+}
+
+.banner-content h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 2.2rem;
 }
 
 
-
 /*--------bottom-----------*/
-/*.bottom {
+.bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,17 +106,6 @@ nav {
 .auteur {
     font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
